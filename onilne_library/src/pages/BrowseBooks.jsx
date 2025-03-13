@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 
+
 export const BrowseBooks = () => {
   const { category } = useParams();
   const [books, setBooks] = useState([]);
